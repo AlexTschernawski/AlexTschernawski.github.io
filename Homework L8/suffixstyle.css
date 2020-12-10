@@ -1,0 +1,752 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1440px;
+    height: 120px;
+    background-color: #fff;
+    background-image: url("./images/Group\ 13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 35px;
+    height: 67px;
+    background-image: url(./images/align-justify-solid.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    left: 51px;
+    top: 43px;
+}
+a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:  rgb(163, 163, 163);
+}
+ul{
+    list-style: none;
+    position: absolute;
+    width: 344px;
+    height: 359px;
+    padding-top: 52px;
+    padding-left: 66px;
+    background-color: white;
+    box-shadow: 5px -2px 20px 0px #0000006e;
+    top: 63px;
+    display: none;
+}
+li{
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 14px; 
+}
+nav:hover ul{
+    position: absolute;
+    left: 0px;
+    top: 63px;
+    width: 344px;
+    height: 359px;
+    display: block;
+}
+.slider-main{
+    width: 1440px;
+    height: 570px;
+    margin: auto;
+    display: flex;
+}
+.slider-left{
+    width: 720px;
+    height: 570px;
+    background-image: url("./images/philip-martin-5aGUyCW_PJw-unsplash.png");
+    background-size: 720px 570px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-right{
+    width: 720px;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+}
+.readmore{
+    position: absolute;
+    left: 108px;
+    bottom: 151px;
+    width: 198px;
+    height: 55px;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+.text-main{
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    top: 197px;
+    left: 108px;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: white;
+}
+.lifestyle-big{
+    width: 75px;
+    height: 24px;
+    position: absolute;
+    top: 107px;
+    right: 110px;
+    color: white;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.date-main{
+    width: 136px;
+    height: 21px;
+    position: absolute;
+    top: 110px;
+    left: 108px;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 7px;
+    color: #FFFFFF;
+}
+.text-odio{
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    top: 268px;
+    left: 108px;
+    font-family:"Kanit-light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.slider-secondary{
+    width: 1440px;
+    height: 100%;
+    margin: auto;
+    padding-left: 148px;
+    padding-top: 116px;
+    padding-right: 148px;
+    position: relative;
+    
+}
+.figure-1{
+    width: 557px;
+    height: 654px;
+    margin-right: 27px;
+    margin-left: 1px;
+    float: left;
+}
+.featured{
+    position: absolute;
+    top: 59px;
+    left: 149px;
+    width: 87px;
+    height: 27px;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+}
+.date-small{
+    display: inline-block;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    margin-top: 22px;
+}
+.lifestyle-small{
+   font-family: "Kanit";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 18px;
+   text-decoration-line: underline;
+   margin-top: 25px;
+   margin-right: 1px;
+   float: right;
+}
+.lorem{
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 34px;
+}
+.poslorem{
+    margin-left: 2px;
+}
+.ut-aut{
+    font-family: "Kanit-light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 19px;
+}
+.figure-2{
+    width: 557px;
+    height: 654px;
+    float: left;
+}
+.figure-3{
+    width: 363px;
+    height: 390px;
+    float: left;
+    margin-right: 27px;
+}
+.dspos-1{
+    margin-top: 14px; 
+    margin-left: 2px;
+}
+.lspos-1{
+    margin-top: 14px; 
+    margin-right: -1px;
+}
+.atvero{
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 22px;
+    margin-left: 2px;
+    word-spacing: 2px;
+}
+.figure-4{
+    width: 363px;
+    height: 390px;
+    float: left;
+    margin-right: 27px;
+}
+.figure-5{
+    width: 363px;
+    height: 390px;
+    float: left;
+}
+.seeall{
+    display: block;
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 71px;
+}
+.img-left{
+    width: 571px;
+    height: 360px;
+    margin-bottom: 64px;
+    float: left;
+}
+.posrel{
+    position: relative;
+    width: 572px;
+    height: 360px;
+    margin-bottom: 64px;
+    float: left;
+}
+.issue{
+    width: 316px;
+    height: 51px;
+    position: absolute;
+    top: 124px;
+    left: 116px;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    color: white;
+}
+.sibscribe{
+    position: absolute;
+    bottom: 123px;
+    left: 187px;
+    width: 198px;
+    height: 42px;
+    background-color: black;
+    border: 1px solid white;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.interviews{
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 2px;
+    margin-bottom: 31px;
+}
+.figure-6{
+    width: 363px;
+    height: 363px;
+    float: left;
+    margin-right: 27px;
+}
+.dspos-2{
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 7px;
+}
+.lspos-2{
+    margin-top: 8px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+.figure-7{
+    width: 363px;
+    height: 363px;
+    float: left;
+    margin-right: 27px;
+}
+.figure-8{
+    width: 363px;
+    height: 363px;
+    float: left;
+}
+.posseeall{
+    margin-bottom: 33px;
+}
+.news{
+    margin-bottom: 28px;
+}
+.dspos-3{
+    margin-top: 15px;
+    margin-left: 1px;
+}
+.lspos-3{
+    margin-top: 15px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+.posseeall-2{
+    margin-top: -4px;
+    margin-bottom: 100px;
+}
+.footer{
+    width: 1440px;
+    height: 154px;
+    background-color: black;
+    margin: auto;
+    background-image: url(./images/Group\ 2.png);
+    background-position: center;
+    background-position-y: 55px;
+    background-repeat: no-repeat;
+    font-family: "Kanit-light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+    word-spacing: 2px;
+}
+@media screen and (max-width: 1440px) and (min-width: 1250px){
+    header, .slider-main, .slider-secondary, .footer{
+        width: 1240px;
+    }
+    .slider-left, .slider-right{
+        width: 620px;
+    }
+    .slider-secondary{
+        padding-top: 108px;
+    }
+    .figure-1, .figure-2{
+        width: 455px;
+    }
+    .img-1{
+        width: 455px;
+        height: 301px;
+    }
+    .figure-3, .figure-4, .figure-5, .figure-6, .figure-7, .figure-8{
+        width: 295px;
+    }
+    .img-2{
+        width: 295px;
+    }
+    .figure-center-1{
+        width: 470px;
+    }
+    .img-left, .img-black{
+        width: 470px;
+        height: 360px;
+    }
+    .issue{
+        top: 124px;
+        left: 57px;
+    }
+    .sibscribe{
+        bottom: 123px;
+        left: 129px;
+    }
+}   
+@media screen and (max-width: 1250px) and (min-width: 800px){
+    header, .slider-main, .slider-secondary, .footer{
+        width: 768px;
+    }
+    .slider-main{
+        height: 354px;
+}
+    .slider-left, .slider-right{
+        width: 385px;
+        height: 354px;
+        background-size: 450px;
+    }
+header{
+        height: 65px;
+        background-size: 105px 20px;
+}
+nav{
+    width: 24px;
+    height: 67px;
+    background-size: 24px;
+    top: 22px;
+    left: 23px;
+}
+.readmore{
+    left: 108px;
+    bottom: 151px;
+    width: 198px;
+    height: 40px;
+    left: 21px;
+    bottom: 72px;
+}
+.date-main{
+    width: 117px;
+    height: 18px;
+    top: 72px;
+    left: 21px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+}
+.lifestyle-big{
+    display: none;
+}
+.text-main{
+    width: 344px;
+    height: 27px;
+    top: 110px;
+    left: 21px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.text-odio{
+    width: 343px;
+    height: 54px;
+    top: 157px;
+    left: 22px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.slider-secondary{
+    padding-left: 24px;
+    padding-top: 108px;
+    padding-right: 24px;
+}
+.featured{
+    position: absolute;
+    top: 60px;
+    left: 24px;
+    width: 86px;
+}
+.figure-1, .figure-2{
+    width: 345px;
+    height: 458px;
+}
+.figure-1{
+    margin-right: 29px;
+}
+.img-1{
+    width: 345px;
+}
+.figure-3, .figure-4, .figure-5, .figure-6, .figure-7, .figure-8{
+    width: 220px;
+    height: 300px;
+}
+.figure-3, .figure-4, .figure-6, .figure-7{
+    margin-right: 30px;
+}
+.img-2{
+    width: 220px;
+}
+.date-small{
+    margin-top: 21px;
+}
+.lifestyle-small{
+    margin-top: 21px;
+}
+.lorem{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 16px;
+}
+.ut-aut{
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 21px;
+}
+.atvero{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-left: 2px;
+    word-spacing: 2px;
+}
+.seeall{
+    margin-bottom: 60px;
+}
+.figure-center-1, .posrel{
+    width: 360px;
+    height: 275px;
+    margin-bottom: 53px;
+    float: left;
+}
+.img-left, .img-black{
+    width: 360px;
+    height: 275px;
+}
+.issue{
+    top: 90px;
+    left: 95px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.sibscribe{
+    top: 144px;
+    left: 81px;
+}
+.interviews{
+    margin-bottom: 32px;
+}
+.footer{
+    width: 768px;
+    height: 163px;
+}
+.posseeall-2{
+    margin-bottom: 70px;
+}
+}
+@media screen and (max-width: 800px) and (min-width: 0){
+
+header, .footer, main{
+    width: 320px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-main{
+    width: 320px;
+    height: 540px;
+    flex-direction: column;
+}
+.slider-left{
+    width: 320px;
+    height: 294px;
+    background-size: 450px;
+}
+.slider-right{
+    width: 320px;
+    height: 246px;
+}
+header{
+    height: 65px;
+    background-size: 105px 20px;
+}
+nav{
+width: 24px;
+height: 67px;
+background-size: 24px;
+top: 22px;
+left: 23px;
+}
+nav:hover ul{
+    width: 244px;
+    height: 259px;
+    padding-top: 22px;
+    padding-left: 36px;
+}
+.readmore{
+width: 198px;
+height: 40px;
+left: 12px;
+bottom: 32px;
+}
+.date-main{
+width: 117px;
+height: 18px;
+top: 15px;
+left: 12px;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 6px;
+}
+.lifestyle-big{
+display: none;
+}
+.text-main{
+width: 344px;
+height: 27px;
+top: 53px;
+left: 12px;
+font-size: 18px;
+line-height: 27px;
+}
+.text-odio{
+width: 295px;
+height: 54px;
+top: 100px;
+left: 12px;
+font-size: 12px;
+line-height: 18px;
+}
+.slider-secondary{
+    width: 320px;
+padding-left: 0px;
+padding-top: 80px;
+padding-right: 0px;
+display: flex;
+flex-direction: column;
+}
+.featured{
+position: absolute;
+top: 43px;
+left: 12px;
+width: 87px;
+}
+.figure-1, .figure-2{
+width: 295px;
+height: 411px;
+margin-left: 12px;
+}
+.img-1{
+width: 295px;
+}
+.dispnone{
+    display: none;
+}
+.figure-3, .figure-4, .figure-5, .figure-6, .figure-7, .figure-8{
+width: 295px;
+height: 293px;
+margin-left: 12px;
+}
+.img-2{
+width: 295px;
+}
+.date-small{
+margin-top: 15px;
+}
+.lifestyle-small{
+margin-top: 15px;
+}
+.lorem{
+font-size: 18px;
+line-height: 27px;
+margin-top: 16px;
+}
+.ut-aut{
+font-size: 14px;
+line-height: 21px;
+margin-top: 21px;
+}
+.atvero{
+font-size: 16px;
+line-height: 24px;
+margin-top: 15px;
+margin-left: 2px;
+word-spacing: 2px;
+}
+.seeall{
+    margin: 10px auto 43px
+}
+.figure-center-1{
+width: 320px;
+height: 245px;
+}
+.img-left {
+width: 320px;
+height: 245px;
+margin-bottom: 1px;
+}
+.posrel{
+    width: 320px;
+    height: 175px;
+    margin-bottom: 43px;
+}
+.img-black{
+    width: 320px;
+    height: 175px;
+    margin-bottom: 43px;
+}
+.issue{
+top: 40px;
+left: 76px;
+font-size: 18px;
+line-height: 27px;
+}
+.sibscribe{
+top: 94px;
+left: 61px;
+}
+.interviews{
+margin-left: 12px;
+margin-bottom: 16px;
+}
+.footer{
+height: 163px;
+}
+.posseeall-2{
+margin-bottom: 43px;
+}
+}
