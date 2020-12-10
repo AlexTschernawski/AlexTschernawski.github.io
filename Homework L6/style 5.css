@@ -1,0 +1,696 @@
+@import url(./font\ 5.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+}
+.menu{
+    width: 486px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 32px auto 32px;
+}
+.menu_link{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.menu_link:hover{
+    color: #2785F7;
+}
+.menu_link_color{
+    color: #2785F7; 
+}
+.subcontainer{
+    position: relative;
+    width: 1404px;
+    height: 726px;
+    background-color: lightgray;
+    border: 1px white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 72px 34px 72px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxleftmain{
+    width: 145px;
+    height: 100%;
+    padding: 99px 0 135px 23px;
+    float: left;
+}
+.box_left{
+    width: 105px;
+    height: 420px;
+    padding-top: 33px;
+}
+.icon-1{
+    display: block;
+    width: 67px;
+    height: 62px;
+    background-color: white;
+    background-image: url(./images/folder.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+}
+.icon-1::after{
+    width: 18px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    content: "Project";
+    font-family: "Bahij";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 62px;
+    border: 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+    z-index: -2;
+}
+.icon-2{
+    display: block;
+    width: 67px;
+    height: 62px;
+    background-image: url(./images/monitor.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+}
+.icon-2::after{
+    width: 18px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    content: "Account";
+    font-family: "Bahij";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 62px;
+    border: 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+    z-index: -2;
+}
+.icon-3{
+    display: block;
+    width: 67px;
+    height: 62px;
+    background-image: url(./images/users-alt.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.icon-3::after{
+    width: 18px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    content: "Groups";
+    font-family: "Bahij";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 62px;
+    border: 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+    z-index: -2;
+}
+.icon-4{
+    display: block;
+    width: 67px;
+    height: 62px;
+    background-image: url(./images/cloud-share.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.icon-4::after{
+    width: 18px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    content: "Cloud";
+    font-family: "Bahij";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 62px;
+    border: 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+    z-index: -2;
+}
+.icon-5{
+    display: block;
+    width: 67px;
+    height: 62px;
+    background-image: url(./images/cog.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.icon-5::after{
+    width: 18px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    content: "Settings";
+    font-family: "Bahij";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 62px;
+    border: 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+    z-index: -2;
+}
+.icon-1:hover::after, .icon-2:hover::after, .icon-3:hover::after,.icon-4:hover::after, .icon-5:hover::after{
+    width: 100px;
+    background-color: rgb(255, 166, 0);
+}
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover {
+    filter: invert(1);
+    background-color: rgb(255, 166, 0);
+}
+.boxmain{
+    width: 1195px;
+    height: 574px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.boxtop{
+    width: 1195px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box_up_1{
+    width: 592px;
+    height: 130px;
+    text-align: left;
+    padding: 32px 42px;
+
+}
+.box_up_2{
+    width: 583px;
+    height: 130px;
+    text-align: left;
+    padding: 32px 42px;
+
+}
+.boxbottom{
+    width: 732px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box_center_1{
+    width: 732px;
+    height: 194px;
+    padding: 34px;
+    text-align: left;
+}
+.box_center_2{
+    width: 732px;
+    height: 194px;
+    background-image: url(./images/team.jpg);
+    background-repeat: no-repeat;
+    background-position: 47px 27px;
+    background-size: 120px;
+    padding: 34px;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.box_right{
+    width: 447px;
+    height: 410px;
+    background-image: url(./images/data.jpg);
+    background-repeat: no-repeat;
+    background-position: 42px 34px;
+    background-size: 120px;
+    text-align: left;
+    padding: 174px 39px 38px 42px;
+
+}
+.textblock-right{
+    width: 366px;
+    height: 198px;
+
+}
+.bordermain{
+    background-color: white;
+    border: 1px white;
+    border-radius: 20px;
+}
+.textblock-c2{
+    width: 495px;
+    height: 97px;
+}
+h2{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+}
+.lorem-1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 160%;
+    opacity: 50%;
+}
+h1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 160%;
+}
+.subcontainer-2{
+    width: 1404px;
+    height: 726px;
+    background-color: lightgray;
+    border: 1px white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 32px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.teamcontainer{
+    width: 1297px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.teamsubcontainer{
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.teamsubcontainer::after{
+    content: "";
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: -26px;
+    right: -26px;
+    background-color: white;
+    background-image: url(./завдання/images/trash-alt.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px white;
+    border-radius: 15px;
+    opacity: 0;
+}
+.teamsubcontainer:hover::after{
+    opacity: 100%;
+}
+.img-main{
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px white;
+    border-radius: 50px;
+}
+.img-1{
+    background-image: url(./images/1.jpg);
+}
+.img-2{
+    background-image: url(./images/2\ \(1\).jpg);
+}
+.img-3{
+    background-image: url(./images/3.jpg);
+}
+.img-4{
+    background-image: url(./images/4.jpg);
+}
+.img-5{
+    background-image: url(./images/5.jpg);
+}
+.img-6{
+    background-image: url(./images/6.jpg);
+}
+.img-7{
+    background-image: url(./images/7.jpg);
+}
+.img-8{
+    background-image: url(./images/8.jpg);
+}
+.textteam-1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 160%;
+    margin: auto;
+}
+.textteam-2{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    opacity: 60%;
+    padding-bottom: 30px;
+}
+.teamsubcontainer:hover{
+    background-color: rgb(81, 177, 255);
+    color: white;
+}
+table{
+    margin: auto;
+    border-spacing: 0;
+}
+.textlesson{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 160%;
+}
+th{
+    width: 254px;
+    height: 94px;
+}
+td{
+    width: 254px;
+    height: 64px;
+    text-align: center;
+}
+tr{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.table-backround:hover{
+    background-color: white;
+}
+input[type="checkbox"]{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.icon-download{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./images/download-solid.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px;
+    border-radius: 10px;
+    margin: auto;
+}
+.icon-download:hover{
+    filter: invert(1);
+    background-color: rgb(255, 166, 0);
+    
+}
+.border-left{
+    border: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.border-right{
+    border: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.block-up{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+.textA{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-family: "Open Sans";
+    background-color: rgb(255, 0, 64);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 3px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.textAccountbig{
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+.textAccountsmall{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    opacity: 60%;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+}
+.form-1{
+    width: 500px;
+    height: 460px;
+    background-color: white;
+    margin: auto;
+    padding: 120px 50px 0 50px;
+    position: relative;
+}
+.lock{
+    width: 56px;
+    height: 56px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(255, 166, 0);
+    background-image: url(./завдання/images/padlock.svg);
+    background-size: 44px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+    position: absolute;
+    top: 22px;
+    left: 23px;
+}
+.text-legend{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+[placeholder]{
+font-family: "Open Sans";
+font-weight: bolder;
+}
+input[type="password"]{
+    width: 400px;
+    height: 38px;
+    padding-left: 20px;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+input:focus {
+    border: 2px solid rgb(0, 102, 255);
+}
+button{
+    width: 100px;
+    height: 38px;
+    outline: none;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    margin-top: 30px;
+    float: right;
+}
+button:focus{
+    background-color: black;
+    border: 2px solid black
+}
+.form-2{
+    width: 600px;
+    height: 580px;
+    background-color: white;
+    margin: auto;
+    padding: 90px 50px 0 50px;
+    position: relative;
+}
+.CompanyName{
+    width: 500px;
+    height: 38px;
+    padding-left: 20px;
+    padding-top: 8px;
+    outline: none;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.CompanyAddress{
+    width: 500px;
+    height: 93px;
+    padding-left: 20px;
+    padding-top: 8px;
+    outline: none;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.Country{
+    width: 225px;
+    height: 38px;
+    padding-left: 20px;
+    padding-top: 8px;
+    margin-right: 10px;
+    outline: none;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.CityPosition{
+    position: absolute;
+    right: 240px;
+    bottom: 210px;
+}
+.City{
+    width: 225px;
+    height: 38px;
+    padding-left: 20px;
+    padding-top: 8px;
+    outline: none;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 10px; 
+    float: right;
+}
+.State{
+    width: 225px;
+    height: 38px;
+    padding-left: 20px;
+    padding-top: 8px;
+    margin-right: 10px;
+    outline: none;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    float: left;
+}
+input[type="number"]{
+    width: 225px;
+    height: 38px;
+    padding-left: 20px;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    float: right;
+}
+.PostalCodePosition{
+    position: absolute;
+    right: 165px;
+    bottom: 120px;
+}
+input[type="number"]:focus {
+    border: 2px solid rgb(0, 102, 255);
+}
+textarea:focus{
+    border: 2px solid rgb(0, 102, 255);  
+}
